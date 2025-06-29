@@ -19,6 +19,7 @@ npm install
 ```bash
 npm install playwright
 npm install @axe-core/playwright
+npx playwright install
 ```
 
 see https://playwright.dev/docs/intro for full details
