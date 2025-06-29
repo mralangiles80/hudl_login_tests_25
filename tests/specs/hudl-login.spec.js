@@ -12,7 +12,7 @@ test.describe('Valid user login tests @valid', () => {
     await validUser.attemptsTo( 
       LoginActions.goToLoginPage(),
       LoginActions.submitUsername(testData.credentials.validUsername),
-      LoginActions.toggleShowPassword,
+      LoginActions.toggleShowPassword(),
       LoginActions.submitPassword(testData.credentials.validPassword)
     );
 
