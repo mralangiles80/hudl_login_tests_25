@@ -29,7 +29,7 @@ replace REPLACE-ME with valid username and password in tests/fixtures/test-data.
 
 ## Running Tests
 
-### Run all tests (note this will run 60 tests and take around a minute):
+### Run all tests (note this will run 65 tests and take around a minute):
 ```bash
 npx playwright test
 ```
